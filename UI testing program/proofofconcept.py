@@ -525,11 +525,11 @@ def ExportPython(options, website):
 		elif choice == '2':
 			print 'Geef een nieuwe naam in.'
 			time.sleep(2)
-			ExportPython()
+			ExportPython(options, website)
 		else:
 			'Gelieve 1 of 2 te typen.'
 			sleep.time(2)
-			ExportPython()
+			ExportPython(options, website)
 	else:
 		python_file = open(fileName, 'w+')
 
